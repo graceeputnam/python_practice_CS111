@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 0,
+            "max_score": 10,
+            "name": "test_square_root.py::test_square_root",
+            "output": "(2.8125, 4)\n\nsquare_root = <function square_root at 0x105e99440>\n\n    @max_score(10)\n    @with_import('square_root', 'square_root')\n    def test_square_root(square_root):\n        result, iterations = square_root(9)\n>       assert result == 3.0000\nE       assert 2.8125 == 3.0\n\ntest_square_root.py:8: AssertionError",
+            "visibility": "visible"
+        }
+    ]
+}

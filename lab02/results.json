@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 8,
+            "max_score": 8,
+            "name": "test_lab02.py::test_copy_file",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

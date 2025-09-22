@@ -1,0 +1,39 @@
+{
+    "tests": [
+        {
+            "score": 3,
+            "max_score": 3,
+            "name": "test_lab07.py::test_in_range1",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 3,
+            "max_score": 3,
+            "name": "test_lab07.py::test_in_range2",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 4,
+            "max_score": 4,
+            "name": "test_lab07.py::test_main_loop",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_lab07.py::test_bound_checker",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 0,
+            "max_score": 5,
+            "name": "test_lab07.py::test_exception_handler",
+            "output": "\nexception_handler = <function exception_handler at 0x101f7df80>\ncapsys = <_pytest.capture.CaptureFixture object at 0x101f25a00>\n\n    @max_score(5)\n    @with_import('lab07', 'exception_handler')\n    def test_exception_handler(exception_handler, capsys):\n        exception_handler()\n        captured = capsys.readouterr()\n        observed = captured.out.strip()\n>       assert \"<class 'TypeError'>\" in observed\nE       assert \"<class 'TypeError'>\" in 'Exception caught! Exception type:'\n\ntest_lab07.py:11: AssertionError",
+            "visibility": "visible"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "tests": [
+        {
+            "score": 0,
+            "max_score": 0,
+            "name": "test_lab06.py::test_stat_analysis",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}
