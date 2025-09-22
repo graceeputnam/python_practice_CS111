@@ -1,0 +1,32 @@
+{
+    "tests": [
+        {
+            "score": 12.5,
+            "max_score": 12.5,
+            "name": "test_homework7.py::test_request_guard_domain",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 12.5,
+            "max_score": 12.5,
+            "name": "test_homework7.py::test_request_guard_subdomain",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 12.5,
+            "max_score": 12.5,
+            "name": "test_homework7.py::test_request_guard_offsite_domain",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 12.5,
+            "max_score": 12.5,
+            "name": "test_homework7.py::test_request_guard_make_get_request",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}
