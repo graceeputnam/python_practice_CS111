@@ -1,0 +1,32 @@
+{
+    "tests": [
+        {
+            "score": 25.0,
+            "max_score": 25.0,
+            "name": "test_grade_calculator.py::test_grade_1[stdout]",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 25.0,
+            "max_score": 25.0,
+            "name": "test_grade_calculator.py::test_grade_2[stdout]",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 25.0,
+            "max_score": 25.0,
+            "name": "test_grade_calculator.py::test_grade_3[stdout]",
+            "output": "\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 25.0,
+            "max_score": 25.0,
+            "name": "test_grade_calculator.py::test_grade_4[stdout]",
+            "output": "\n",
+            "visibility": "visible"
+        }
+    ]
+}

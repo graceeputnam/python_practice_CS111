@@ -1,0 +1,67 @@
+{
+    "tests": [
+        {
+            "score": 20,
+            "max_score": 20,
+            "name": "test_project1.py::test_display_image",
+            "output": "['image_processing.py', '-d', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_project1.py::test_darken_filter",
+            "output": "['image_processing.py', '-k', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/darkened-explosion.output.png', '0.3']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_project1.py::test_sepia_filter",
+            "output": "['image_processing.py', '-s', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/sepia-explosion.output.png']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_project1.py::test_grayscale_filter",
+            "output": "['image_processing.py', '-g', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/grayscale-explosion.output.png']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_project1.py::test_border_filter",
+            "output": "['image_processing.py', '-b', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/bordered-explosion.output.png', '10', '120', '20', '14']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 5,
+            "max_score": 5,
+            "name": "test_project1.py::test_flip_filter",
+            "output": "['image_processing.py', '-f', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/flipped-explosion.output.png']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 15,
+            "max_score": 15,
+            "name": "test_project1.py::test_mirror_filter",
+            "output": "['image_processing.py', '-m', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/mirrored-explosion.output.png']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 20,
+            "max_score": 20,
+            "name": "test_project1.py::test_collage_filter",
+            "output": "['image_processing.py', '-c', '/Users/graceeputnam/Desktop/cs111/project01/test_files/beach1.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/test_files/beach2.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/test_files/beach3.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/test_files/beach4.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/collage.output.png', '10']\nValid input\n\n",
+            "visibility": "visible"
+        },
+        {
+            "score": 20,
+            "max_score": 20,
+            "name": "test_project1.py::test_greenscreen_filter",
+            "output": "['image_processing.py', '-y', '/Users/graceeputnam/Desktop/cs111/project01/test_files/man.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/test_files/explosion.input.jpg', '/Users/graceeputnam/Desktop/cs111/project01/greenscreen.output.png', '90', '1.3']\nValid input\n\n",
+            "visibility": "visible"
+        }
+    ]
+}
